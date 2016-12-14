@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!--FontAwesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/hover_styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Foundation CSS-->
+    <link href="css/foundation.css" rel="stylesheet" type="text/css">
+    <link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+
+    <!--JQuery-->
+    <script src="js/jquery.js"></script>
+
+    <!-- Foundation JavaScript CDN -->
+    <script src="js/foundation.js" type="text/javascript"></script>
+    <script src="js/foundation.min.js" type="text/javascript"></script>
+    <script src="js/what-input.js" type="text/javascript"></script>
+
+
+    <!--Masonry-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/masonry-docs.min.js"></script>
+
+    <!--fotorama-->
+    <script src="fotorama/fotorama.js"></script>
+    <link href="fotorama/fotorama.css" rel="stylesheet" type="text/css">
+
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                asNavFor: '.slider-nav',
+                nextArrow: '<i class="fa fa-angle-right fa-3x" id="slick-next"</i>',
+                prevArrow: '<i class="fa fa-angle-left fa-3x" id="slick-prev"</i>',
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 10,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                centerMode: false,
+                focusOnSelect: true
+            });
+        });
+    </script>
+
+    <meta charset="UTF-8">
+    <title>Erik's Portfolio Page</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="nav-bar-large row">
+        <div class="columns small-offset-3 small-6 medium-offset-3">
+            <div class="row nav-bar">
+                <div class="nav-bar-left columns small-12 medium-6 large-6">
+                    <a href="index.html"><img src="images/name_header.png" alt="name"></a>
+                </div>
+                <div class="nav-bar-right columns small-12 medium-6 large-6">
+                    <li class="menu vertical">
+                        <ul><em><a href="video.html">Video</a></em></ul>
+                        <ul><em><a href="photo.html">Photo</a></em></ul>
+                        <ul><em><a href="web.html">Web</a></em></ul>
+                        <ul><em><a href="info.html">About</a></em></ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PHOTO CHOICES -->
+    <div class="row">
+        <div class="photo-selection-left columns small-12 medium-6 large-6">
+            <a href="photo-film.html"><img src="photoshop/film-white.png" onmouseover="this.src='photoshop/film.png'" onmouseout="this.src='photoshop/film-white.png'"></a>
+        </div>
+        <div class="photo-selection-right columns small-12 medium-6 large-6">
+            <a href="photo-digital.html"><img src="photoshop/digital-white.png" onmouseover="this.src='photoshop/digital.png'" onmouseout="this.src='photoshop/digital-white.png'"></a>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class=" row footer-bottom ">
+        <div class="large-12 medium-12 small-12 columns ">
+            <div class="row ">
+                <div class="large-12 medium-12 small-12 columns social-icons ">
+                    <a href="https://vimeo.com/user16045976 " target="_blank "><i class="fa fa-vimeo fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                    <a href="https://500px.com/erikmaynardmedia " target="_blank "><i class="fa fa-500px fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                    <a href="https://www.instagram.com/erik_maynard/ " target="_blank "><i class="fa fa-instagram fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                    <a href="https://www.twitter.com/erik_maynard/ " target="_blank "><i class="fa fa-twitter fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                    <a href="https://www.linkedin.com/in/erik-maynard-a0169859?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://www.discogs.com/user/erik_maynard/collection?page=1&sort=artist%2Casc&folder=0&limit=250&layout=big " target="_blank "><i class="fa fa-headphones fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                    <a href="mailto:erikmaynardmedia@gmail.com "><i class="fa fa-envelope fa-2x " aria-hidden="true " style="color:black; "></i></a>
+                </div>
+                <div class="large-12 medium-12 small-12 columns footer-info ">
+                    <p> <a href="index.html ">Home</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

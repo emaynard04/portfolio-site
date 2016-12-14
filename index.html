@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--FontAwesome-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Local CSS -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/hover_styles.css" rel="stylesheet" type="text/css">
+
+    <!-- Foundation CSS-->
+    <link href="css/foundation.css" rel="stylesheet" type="text/css">
+    <link href="css/foundation.min.css" rel="stylesheet" type="text/css">
+
+    <!--JQuery-->
+    <script src="js/jquery.js"></script>
+
+    <!-- Foundation JavaScript CDN -->
+    <script src="js/foundation.js" type="text/javascript"></script>
+    <script src="js/foundation.min.js" type="text/javascript"></script>
+    <script src="js/what-input.js" type="text/javascript"></script>
+
+    <!--Slick-->
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <!--Vimeo -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <!--Masonry-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/masonry-docs.min.js"></script>
+
+    <!-- Image Change on Home Script -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#infoAlt1').click(function() {
+                $('#infoMain').attr('src', 'images/personalPhoto1.jpg');
+            });
+            $('#infoAlt2').click(function() {
+                $('#infoMain').attr('src', 'images/personalPhoto2.jpg');
+            });
+            $('#infoAlt3').click(function() {
+                $('#infoMain').attr('src', 'images/personalPhoto3.jpg');
+            });
+            $('#infoAlt4').click(function() {
+                $('#infoMain').attr('src', 'images/personalPhoto4.jpg');
+            });
+        });
+    </script>
+
+    <!--SLICK SLIDER -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.single-item').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: false,
+                arrows: true,
+                infinite: true,
+                dots: true,
+                nextArrow: '<i class="fa fa-angle-right fa-3x" id="slick-next"</i>',
+                prevArrow: '<i class="fa fa-angle-left fa-3x" id="slick-prev"</i>',
+            });
+        });
+    </script>
+
+    <!-- Vimeo Player -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script>
+        var iframe = document.querySelector('iframe');
+        var player = new Vimeo.Player('#vimeo1', '#vimeo2', '#vimeo3', '#vimeo4');
+
+        player.on('play', function() {
+            console.log('played the video!');
+        });
+        player.setAutopause(true).then(function(autopause) {
+            // autopause was turned off
+        }).catch(function(error) {
+            // an error occurred
+        });
+
+        player.pause().then(function() {
+            // the video was paused
+        }).catch(function(error) {
+            switch (error.name) {
+                case 'PasswordError':
+                    // the video is password-protected and the viewer needs to enter the
+                    // password first
+                    break;
+
+                case 'PrivacyError':
+                    // the video is private
+                    break;
+
+                default:
+                    // some other error occurred
+                    break;
+            }
+        });
+    </script>
+
+    <meta charset="UTF-8">
+    <title>erik m</title>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="nav-bar-large-index row">
+        <div class="row nav-bar">
+            <div class="nav-bar-left columns small-centered small-10 small-centered medium-4 large-4">
+                <img src="images/name_header.png" alt="name">
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+    <!-- LEFT Row - MAIN VIDEO-->
+    <div class="row index-video">
+        <div class="single-item columns small-12  medium-6 large-6">
+            <iframe id="vimeo-index" src="http://player.vimeo.com/video/190200559"></iframe>
+        </div>
+        <!-- RIGHT Row - LINKS-->
+        <div class="index-links columns small-12 small-centered medium-6 large-6 ">
+            <div class="row index-links-img">
+                <a href="video.html"><img id="photoPhoto" src="photoshop/video-white.png" alt="Image" onmouseover="this.src='photoshop/video.png'" onmouseout="this.src='photoshop/video-white.png'" </a>
+            </div>
+            <div class="row index-links-img">
+                <a href="photo.html"><img id="photoPhoto" src="photoshop/photo-white.png" alt="Image" onmouseover="this.src='photoshop/photo.png'" onmouseout="this.src='photoshop/photo-white.png'"></a>
+            </div>
+            <div class="row index-links-img">
+                <a href="web.html"><img id="webPhoto" src="photoshop/web-white.png" alt="Image" onmouseover="this.src='photoshop/web.png'" onmouseout="this.src='photoshop/web-white.png'"></a>
+            </div>
+            <div class="row index-links-img">
+                <a href="info.html"><img id="webPhoto" src="photoshop/about-white.png" alt="Image" onmouseover="this.src='photoshop/about.png'" onmouseout="this.src='photoshop/about-white.png'"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="row footer-bottom">
+        <div class="large-12 medium-12 small-12 columns">
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns social-icons">
+                    <a href="https://vimeo.com/user16045976" target="_blank"><i class="fa fa-vimeo fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://500px.com/erikmaynardmedia" target="_blank"><i class="fa fa-500px fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://www.instagram.com/erik_maynard/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://www.twitter.com/erik_maynard/" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://www.linkedin.com/in/erik-maynard-a0169859?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="https://www.discogs.com/user/erik_maynard/collection?page=1&sort=artist%2Casc&folder=0&limit=250&layout=big" target="_blank"><i class="fa fa-headphones fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                    <a href="mailto:erikmaynardmedia@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true" style="color:black;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

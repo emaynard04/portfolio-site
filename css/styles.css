@@ -1,0 +1,297 @@
+body {
+    color: black;
+}
+index body {
+  background: black;
+}
+.nav-bar {
+    text-align: center;
+}
+
+.nav-bar-left img {
+    padding-top: 50px;
+    height: auto;
+}
+
+.nav-bar-right li {
+    padding-top: 30px;
+    list-style-type: none;
+}
+
+.nav-bar-right ul {
+    margin: -5px;
+}
+
+.nav-bar-right a {
+    color: black;
+    font-size: 15px;
+}
+
+.genericPage {
+    padding-bottom: 50px;
+}
+
+.mainImg {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.mainImg img {
+    height: auto;
+    width: 67.5%;
+}
+
+.altImages-main {
+    padding-top: 3px;
+}
+
+.altImages {
+    text-align: center;
+}
+
+.infoBio {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.about-me {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "antique-olive-compact";
+}
+
+.about-me h3 {
+    text-align: center;
+}
+
+.about-me img {
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
+
+#picture-reel{
+  margin-top: 5px;
+}
+.photo-selection-left {
+  text-align: right;
+}
+.photo-selection-right {
+    text-align: left;
+}
+.photo-selection img{
+  height:75%;
+  width:75%;
+}
+.slider-nav img{
+  height:50px;
+  width: auto;
+}
+.container-setWidth img{
+
+}
+.slick-slider img {
+
+}
+.projects-portfolio {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.projects-carousel {
+    margin: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.projects-center {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+.projects-description {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.projects-description p, h4{
+  text-align: center;
+}
+
+.projects-center h3 {
+    display: inline;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: helvetica, arial;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-body{
+  text-align: center;
+}
+
+.footer-bottom {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.social-icons i {
+    padding: 5px;
+}
+
+.photos {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.photos-center {
+    margin: inline;
+    text-align: center;
+}
+
+.nav-bar {
+  margin-bottom: 25px;
+}
+
+.single-item {
+  text-align: center;
+  margin: auto;
+  top: 0;
+  left: 0;
+  height: auto;
+  width:500px;
+}
+
+.single-item img {
+  height: 600px;
+}
+
+.index-video{
+  margin-top: 50px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.index-links {
+  text-align: center;
+    padding-top: 10px;
+}
+.index-links-img{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("video.png");
+}
+.index-links-img img{
+  height: 35%;
+  width:35%;
+}
+
+.categories {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.categories-name {
+  text-align: center;
+}
+
+.categories-name a{
+  color: black;
+}
+
+#vimeo1{
+  height: 500px;
+  width: auto;
+}
+#vimeo-index {
+  height: 325px;
+  width: auto;
+}
+.video * {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ---- .grid-item ---- */
+
+.picture{
+  width: 31%;
+  margin: 2px;
+  float: left;
+  border: 2px;
+}
+
+	.picture img {
+    display: block;
+    width: 100%;
+  }
+
+.picture img:hover {
+   opacity: 0.5;
+}
+
+/**** IMPORTANT THESE ARE NEEDED ****/
+	#masonry-container {
+	  float:none;
+	  background: #ffffff;
+	  padding: 0;
+	  margin:0 auto;
+	  /* optional */
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  /* content-box is NEEDED. if border-box is enabled
+	     then it when Masonry calculates the height and width
+		 of the container it counts incorrectly and the result
+		 images running to the edge of the container on the right
+		 and bottom sides. Only apply content-box to the container. */
+	  -webkit-box-sizing:content-box;
+	  -moz-box-sizing:content-box;
+	  box-sizing:content-box;
+	}
+
+	/* unfortunately masonry needs hard pxs for images */
+	.col1 { width: 80px; }
+	.col2 { width: 180px; }
+	.col3 { width: 220px; }
+	.col1 img { max-width: 80px; }
+	.col2 img { max-width: 180px; }
+	.col3 img { max-width: 220px; }
+
+	/* animations for the transition/reordering */
+	.transitions-enabled.masonry,
+	.transitions-enabled.masonry .masonry-brick {
+	  -webkit-transition-duration: 0.7s;
+	  -moz-transition-duration: 0.7s;
+	  -ms-transition-duration: 0.7s;
+	  -o-transition-duration: 0.7s;
+	  transition-duration: 0.7s;
+	}
+	.transitions-enabled.masonry {
+	  -webkit-transition-property: height, width;
+	  -moz-transition-property: height, width;
+	  -ms-transition-property: height, width;
+	  -o-transition-property: height, width;
+	  transition-property: height, width;
+	}
+	.transitions-enabled.masonry  .masonry-brick {
+	  -webkit-transition-property: left, right, top;
+	  -moz-transition-property: left, right, top;
+	  -ms-transition-property: left, right, top;
+	  -o-transition-property: left, right, top;
+	  transition-property: left, right, top;
+	}
+/**** Clearfix ****/
+	.clearfix:before, .clearfix:after { content: ""; display: table; }
+	.clearfix:after { clear: both; }
+	.clearfix { zoom: 1; }
+
+   .pswp__caption__center {text-align: center;}

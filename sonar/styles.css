@@ -1,0 +1,211 @@
+@charset "UTF-8";
+@import url("webfonts/CircularStd_Bold/stylesheet.css");
+@import url("webfonts/GOTHAM_MEDIUM/stylesheet.css");
+.top_banner {
+	background-repeat: no-repeat;
+	height: 600px;
+	text-align: center;
+	background-position: center;
+	background-image: url(IMAGES/banner_Sonar_webSiteBLANK1.png);
+}
+.second_row_icons h5 {
+	text-align: center;
+	padding-top: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.creators h5 {
+	text-align: center;
+	padding-top: 20px;
+}
+.row_creators {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	background-color: #e6e6e6;
+	padding-top: 60px;
+}
+.vector_image {
+	padding-left: 30px;
+	padding-right: 90px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	color: #000000;
+}
+.vector_image_row h3 {
+	text-align: center;
+	font-family: "GOTHAM MEDIUM";
+	padding-left: 0px;
+}
+.top_banner_background a  {
+	border: 2px solid #2787fb;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+	color: #2787fb;
+	font-family: "CircularStd Bold";
+}
+.vector_image_row {
+	background-color: #e6e6e6;
+}
+.top_banner_background {
+}
+.musician_statistics {
+	padding-top: 60px;
+	background-color: #333;
+}
+.musician_statistics p {
+	color: #C7C7C7;
+}
+.artists_logos {
+	padding-top: 40px;
+	background-color: #333;
+	padding-bottom: 20px;
+}
+.artists_logos p ,h5{
+	color: #FFFFFF;
+}
+.row_creators h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.mobile_columns_iPad {
+	padding-left: 20px;
+	padding-right: 90px;
+}
+.mobile_text_iPad {
+	color: #000000;
+}
+body {
+	background-color: #000000;
+}
+.mobile_text_iPad img {
+	height: 30px;
+	width: auto;
+	margin-bottom: 25px;
+}
+.footer_info p ,a{
+	color: #2787fb;
+}
+.mobile {
+	padding-top: 60px;
+	background-color: #e6e6e6;
+}
+.mobile_iPad {
+	padding-top: 60px;
+	background-color: #FFFFFF;
+}
+.third_row_musicanTab p {
+	padding-top: 60px;
+	text-align: center;
+}
+.footer_bottom {
+	height: 200px;
+	background-color: #333;
+}
+.footer_bottom i {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.social_icons {
+	text-align: center;
+}
+.footer_info {
+	text-align: center;
+}
+.mobile_image {
+}
+.second_row_icons img {
+	width: 75px;
+	height: auto;
+	margin: 0 auto;
+}
+.icons_images {
+	min-width: 75px;
+}
+
+.second_row_icons	{
+	text-align:center;
+
+}
+.second_row_icons p {
+	font-size: 10px;
+	text-align: left;
+	font-family: "Helvetica Neue", Helvetica, "Avenir Book";
+}
+.row_creators h5 {
+	color: #2787FB;
+	font-family: "GOTHAM MEDIUM";
+}
+.mobile_text h5{
+	color: #2787fb;
+	font-family: "GOTHAM MEDIUM";
+	font-size: 25px;
+}
+.slider_title {
+	margin-top: 150px;
+}
+.third_row_musicanTab_portfolio img {
+	width: 200px;
+	height: auto;
+}
+.third_row_musicanTab_portfolio h5 {
+	color:white;
+	font-family: "GOTHAM MEDIUM";
+}
+.third_row_musicanTab_portfolio p {
+	color:white;
+	padding-top:15px;
+}
+.mobile_text_left {
+	color: #000000;
+}
+.fa-fw {
+	height: 30px;
+	 }.mobile_text {
+	margin-bottom: 20px;
+}
+.questions {
+	padding-top: 90px;
+	background-color: #333;
+}.questions img {
+	height: 300px;
+	width: auto;
+	padding-bottom: 50px;
+}
+.questions_title h2 {
+	text-align: center;
+	color: #ffffff;
+	font-family: "GOTHAM MEDIUM";
+}
+.questions_answer {
+	padding-top: 40px;
+	color: #FFFFFF;
+}
+.musician_statistics h2 {
+	color: #2787FB;
+	text-align: center;
+	font-family: "GOTHAM MEDIUM";
+	padding-bottom: 10px;
+}
+.vector_image p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.bottom_vector {
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.mobile_text_iPad h5 {
+	color: #4b4b4c;
+	font-family: "GOTHAM MEDIUM";
+	text-align: center;
+}
+.mobile_text_iPad ul {
+	font-style: italic;
+	color: #7d8485;
+}
